@@ -24,6 +24,8 @@ int assert(int a, int b) {
 }
 
 int main() {
+	printf("gainCard():\n");	
+
 	// Create variables
 	struct gameState G;
 	int k[10] = {adventurer, council_room, feast, gardens, mine, remodel, smithy, village, baron, great_hall};
@@ -36,6 +38,7 @@ int main() {
 	initializeGame(2, k, seed, &G);
 
 	// Gain to hand (2 hand, 1 deck, else trash)
+	printf("1 in hand\n");
 	card = k[rand()%10];
 	before = G.supplyCount[card];
 	gainCard(card, &G, 2, 1);
@@ -44,7 +47,7 @@ int main() {
 	assert(before, after+1);
 
 	// Gain to deck
-	card = k[rand()%10];
+	printf("1 in deck\n");card = k[rand()%10];
 	before = G.supplyCount[card];
 	gainCard(card, &G, 1, 1);
 	after = G.supplyCount[card];
@@ -59,6 +62,7 @@ int main() {
 	assert(before, after+1);
 
 	// Gain to trash
+	printf("One goes to trash\n");
 	card = k[rand()%10];
 	before = G.supplyCount[card];
 	gainCard(card, &G, 0, 1);
@@ -66,6 +70,7 @@ int main() {
 	assert(before, after+1);
 
 	// No card left to draw
+	printf("Empty deck\n");
 	card = k[rand()%10];
 	G.supplyCount[card] = 0;
 	assert(gainCard(card, &G, 1, 1), -1);

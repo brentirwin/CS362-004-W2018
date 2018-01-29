@@ -24,6 +24,8 @@ int assert(int a, int b) {
 }
 
 int main() {
+	printf("isGameOver():\n");
+
 	// Create variables
 	struct gameState G;
 	int k[10] = {adventurer, council_room, feast, gardens, mine, remodel, smithy, village, baron, great_hall};
