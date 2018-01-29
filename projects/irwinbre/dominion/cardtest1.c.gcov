@@ -1,0 +1,77 @@
+        -:    0:Source:cardtest1.c
+        -:    0:Graph:cardtest1.gcno
+        -:    0:Data:cardtest1.gcda
+        -:    0:Runs:2
+        -:    0:Programs:1
+        -:    1:/***************************************************************
+        -:    2:* Filname: cardtest1.c
+        -:    3:* Author: Brent Irwin
+        -:    4:* Date: 28 January 2018
+        -:    5:* Description: Test Smithy Card
+        -:    6:***************************************************************/
+        -:    7:
+        -:    8:#include "dominion.h"
+        -:    9:#include "rngs.h"
+        -:   10:#include "dominion_helpers.h"
+        -:   11://#include "../cards.h"
+        -:   12:#include <time.h>
+        -:   13:#include <stdio.h>
+        -:   14:#include <stdlib.h>
+        -:   15:
+        2:   16:int main() {
+        -:   17:	// Create variables
+        -:   18:	struct gameState G;
+        2:   19:	int k[10] = {adventurer, council_room, feast, gardens, mine, remodel, smithy, village, baron, great_hall};
+        2:   20:	srand(time(0));
+        2:   21:	int seed = rand();
+        -:   22:	int i;
+        -:   23:
+        -:   24:	// Start the game
+        2:   25:	initializeGame(2, k, seed, &G);
+        -:   26:	// Put some card in their deck
+       22:   27:	for (i=0; i<10; i++) {
+       20:   28:		gainCard(k[rand()%10], &G, 1, 1);
+       20:   29:		gainCard(rand()%3+4, &G, 1, 1);
+        -:   30:	}
+        -:   31:
+        -:   32:	// Print expected results
+        2:   33:	printf("For this test to pass, expect a 13 in the hand before,\n");
+        2:   34:	printf("and 3 random cards in the hand after.\n");
+        -:   35:
+        -:   36:	// Initialize hand
+     1002:   37:	for (i=0; i<MAX_HAND; i++) {
+     1000:   38:		G.hand[1][i] = -1;
+        -:   39:	}
+        2:   40:	G.hand[1][0] = smithy;
+        -:   41:
+        -:   42:	// Display cards before
+        2:   43:	printf("Cards before: ");
+       12:   44:	for (i=0; i<5; i++) {
+       10:   45:		printf("%i, ", G.hand[1][i]);
+        -:   46:	}
+        2:   47:	printf("\n");
+        -:   48:
+        -:   49:	// Use the smithy card
+        2:   50:	card_smithy(1, &G, 0);
+        -:   51:
+        -:   52:	// Display cards after
+        2:   53:	printf("Cards after: ");
+       12:   54:	for (i=0; i<5; i++) {
+       10:   55:		printf("%i, ", G.hand[1][i]);
+        -:   56:	}
+        2:   57:	printf("\n");
+        -:   58:
+        -:   59:	// Check results
+        2:   60:	int success = 1;
+        4:   61:	if (G.hand[1][0] == -1 ||
+        2:   62:		G.hand[1][1] == -1 ||
+    #####:   63:		G.hand[1][2] == -1 ||
+    #####:   64:		G.hand[1][3] != -1 ||
+    #####:   65:		G.hand[1][4] != -1)
+        2:   66:		success = 0;
+        -:   67:
+        2:   68:	if (success) printf("TEST SUCCESSFULLY COMPLETED.\n");
+        2:   69:	else printf("TEST FAILED.\n");
+        -:   70:
+        2:   71:	return 0;
+        -:   72:}

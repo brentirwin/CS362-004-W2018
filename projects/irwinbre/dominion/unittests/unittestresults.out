@@ -1,0 +1,22 @@
+Result for running tests:
+cardtest1.c:
+For this test to pass, expect a 13 in the hand before,
+and 3 random cards in the hand after.
+Cards before: 13, -1, -1, -1, -1, 
+Cards after: 4, -1, -1, -1, -1, 
+TEST FAILED.
+File 'dominion.c'
+Lines executed:19.93% of 557
+Creating 'dominion.c.gcov'
+
+cardtest2.c:
+For this test to pass, expect one more card and 2 more actions.
+Cards before: 14, -1, -1, -1, -1, 
+Actions before: 1
+Cards after: -1, -1, -1, -1, -1, 
+3
+TEST FAILED.
+File 'dominion.c'
+Lines executed:19.93% of 557
+Creating 'dominion.c.gcov'
+

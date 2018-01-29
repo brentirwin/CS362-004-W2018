@@ -1,0 +1,67 @@
+Result for running tests:
+unittest1.c:
+One province left: Game still going
+TEST SUCCESSFULLY COMPLETED
+No provinces left: Game over
+TEST SUCCESSFULLY COMPLETED
+Two empty supply decks: Game still going
+TEST SUCCESSFULLY COMPLETED
+Three empty supply decks: Game over
+TEST FAILED
+Three empty supply decks and no provinces: Game over
+TEST SUCCESSFULLY COMPLETED
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
+unittest2.c:
+TEST SUCCESSFULLY COMPLETED
+TEST SUCCESSFULLY COMPLETED
+TEST SUCCESSFULLY COMPLETED
+TEST SUCCESSFULLY COMPLETED
+TEST SUCCESSFULLY COMPLETED
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
+cardtest1.c:
+For this test to pass, expect a 13 in the hand before,
+and 3 random cards in the hand after.
+Cards before: 13, -1, -1, -1, -1, 
+Cards after: 15, -1, -1, -1, -1, 
+TEST FAILED.
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
+cardtest2.c:
+For this test to pass, expect one more card and 2 more actions.
+Cards before: 14, -1, -1, -1, -1, 
+Actions before: 1
+Cards after: -1, -1, -1, -1, -1, 
+3
+TEST FAILED.
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
+cardtest3.c:
+For this test to pass, expect one more card and 1 more action.
+Cards before: 16, -1, -1, -1, -1, 
+Actions before: 1
+Cards after: -1, -1, -1, -1, -1, 
+2
+TEST FAILED.
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
+cardtest4.c:
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, -1, -1, -1, 
+TEST SUCCESSFULLY COMPLETED.
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
