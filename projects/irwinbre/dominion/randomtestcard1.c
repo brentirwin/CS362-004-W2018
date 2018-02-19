@@ -12,31 +12,53 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+void randomize(struct gameState *G) {
+	int k[13] = {copper, silver, gold, adventurer, council_room, feast, gardens, mine, remodel, smithy, village, baron, great_hall};
+	int i;
+
+	// Number and type of cards in deck
+	int cardsInDeck = rand()%20;
+	for (i=0; i<cardsInDeck; i++) {
+		gainCard(k[rand()%13], G, 1, 1); // Insert cards from k
+	}
+
+	// Number and type of cards in hand
+	int cardsInHand = rand()%5;
+	for (i=0; i<MAX_HAND; i++) {
+		G->hand[1][i] = -1;
+	}
+	G->hand[1][0] = village;
+	for (i=1; i<cardsInHand; i++) {
+		gainCard(k[rand()%13], G, 0, 1);
+	}
+
+	// Number and type of cards in discard pile
+	// Make sure there's always SOME; the deck would never be totally empty
+	int cardsInDiscard = rand()%20+5;
+	for (i=0; i<cardsInDiscard; i++) {
+		gainCard(k[rand()%13], G, 2, 1);
+	}
+
+	// Number of actions the player has
+	G->numActions = rand()%5+1;
+}
+
+int test_card() {
 	// Create variables
 	struct gameState G;
 	int k[10] = {adventurer, council_room, feast, gardens, mine, remodel, smithy, village, baron, great_hall};
-	srand(time(0));
 	int seed = rand();
 	int i;
 	int actionsBefore, actionsAfter;
 
 	// Start the game
 	initializeGame(2, k, seed, &G);
-	// Put some cards in their deck
-	for (i=0; i<10; i++) {
-		gainCard(k[rand()%10], &G, 1, 1);
-		gainCard(rand()%3+4, &G, 1, 1);
-	}
+
+	// Let's randomize some stuff!
+	randomize(&G);
 
 	// Print expected results
 	printf("For this test to pass, expect one more card and 2 more actions.\n");
-
-	// Initialize hand
-	for (i=0; i<MAX_HAND; i++) {
-		G.hand[1][i] = -1;
-	}
-	G.hand[1][0] = village;
 
 	// Display cards before
 	printf("Cards before: ");
@@ -74,6 +96,16 @@ int main() {
 
 	if (success) printf("TEST SUCCESSFULLY COMPLETED.\n");
 	else printf("TEST FAILED.\n");
+
+	return 0;
+}
+
+int main() {
+	srand(time(0));
+	int i;
+	for (i=0; i<100; i++) {
+		test_card();
+	}
 
 	return 0;
 }
