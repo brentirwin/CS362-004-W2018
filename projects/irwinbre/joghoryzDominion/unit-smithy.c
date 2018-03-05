@@ -2,7 +2,7 @@
 * Filname: cardtest1.c
 * Author: Brent Irwin
 * Date: 28 January 2018
-* Description: Test Adventurer Card
+* Description: Test Smithy Card
 ***************************************************************/
 
 #include "dominion.h"
@@ -30,13 +30,14 @@ int main() {
 	}
 
 	// Print expected results
-	printf("For this test to pass, expect 2 treasures in hand after.\n");
+	printf("For this test to pass, expect a 13 in the hand before,\n");
+	printf("and 3 random cards in the hand after.\n");
 
 	// Initialize hand
 	for (i=0; i<MAX_HAND; i++) {
 		G.hand[1][i] = -1;
 	}
-	G.hand[1][0] = adventurer;
+	G.hand[1][0] = smithy;
 
 	// Display cards before
 	printf("Cards before: ");
@@ -45,8 +46,8 @@ int main() {
 	}
 	printf("\n");
 
-	// Use the adventurer card
-	card_adventurer(&G, 1);
+	// Use the smithy card
+	cardEffect_smithy(&G, 1, 0);
 
 	// Display cards after
 	printf("Cards after: ");
@@ -56,14 +57,13 @@ int main() {
 	printf("\n");
 
 	// Check results
-	int success = 0;
-	if ((G.hand[1][0] == copper ||
-		G.hand[1][0] == silver ||
-		G.hand[1][0] == gold) &&
-		(G.hand[1][1] == copper ||
-		G.hand[1][1] == silver ||
-		G.hand[1][1] == gold))
-		success = 1;
+	int success = 1;
+	if (G.hand[1][0] == -1 ||
+		G.hand[1][1] == -1 ||
+		G.hand[1][2] == -1 ||
+		G.hand[1][3] != -1 ||
+		G.hand[1][4] != -1)
+		success = 0;
 
 	if (success) printf("TEST SUCCESSFULLY COMPLETED.\n");
 	else printf("TEST FAILED.\n");

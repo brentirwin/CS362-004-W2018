@@ -1,0 +1,730 @@
+Result for running tests:
+random-adventurer.c:
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 5, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 6, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 5, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 4, 4, 4, -1, -1, 
+TEST FAILED.
+File 'dominion.c'
+Lines executed:24.56% of 562
+Creating 'dominion.c.gcov'
+
+random-smithy.c:
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 3, cards after: 5
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 3
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 2, cards after: 4
+TEST SUCCESSFULLY COMPLETED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+For this test to pass, expect 2 more cards.
+Cards before: 1, cards after: 2
+TEST FAILED.
+File 'dominion.c'
+Lines executed:24.56% of 562
+Creating 'dominion.c.gcov'
+
+unit-adventurer.c
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 4, 4, -1, -1, 
+TEST SUCCESSFULLY COMPLETED.
+File 'dominion.c'
+Lines executed:24.56% of 562
+Creating 'dominion.c.gcov'
+
+unit-smithy.c
+For this test to pass, expect a 13 in the hand before,
+and 3 random cards in the hand after.
+Cards before: 13, -1, -1, -1, -1, 
+Cards after: 4, 11, -1, -1, -1, 
+TEST FAILED.
+File 'dominion.c'
+Lines executed:24.56% of 562
+Creating 'dominion.c.gcov'
+

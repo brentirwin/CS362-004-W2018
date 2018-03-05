@@ -1,0 +1,4 @@
+For this test to pass, expect 2 treasures in hand after.
+Cards before: 7, -1, -1, -1, -1, 
+Cards after: 6, 5, 6, -1, -1, 
+TEST SUCCESSFULLY COMPLETED.

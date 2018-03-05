@@ -1,0 +1,53 @@
+Result for running tests:
+===TESTING isGameOver===
+-----PASSED: No Game Over Condition Met
+-----PASSED: Province Cards Stack Empty Game Over
+-----PASSED: Supply Pile 3 Empty Game Over
+-----PASSED: No Game Over: 2 Supply Empty
+-----PASSED: All Game Over Conditions Met
+File 'dominion.c'
+Lines executed:4.63% of 562
+Creating 'dominion.c.gcov'
+
+===TESTING fullDeckCount===
+-----PASSED: P0 3 count overall
+-----PASSED: P0 2 count deck+discard empty hand
+-----PASSED: P0 0 count all empty
+-----PASSED: P1 30 count deck+hand+discard
+-----PASSED: P1 20 count hand+discard empty deck
+File 'dominion.c'
+Lines executed:4.63% of 562
+Creating 'dominion.c.gcov'
+
+===TESTING supplyCount===
+-----PASSED: 5-10 count
+-----PASSED: 5-0 count
+-----PASSED: 5-1000 count
+-----PASSED: 3-23 count
+-----PASSED: 0-0 count
+File 'dominion.c'
+Lines executed:4.63% of 562
+Creating 'dominion.c.gcov'
+
+===TESTING handCard===
+-----PASSED: P1 has C6 Pos 5
+-----PASSED: P1 has C9 Pos 3
+-----PASSED: P0 has C0 Pos 0
+File 'dominion.c'
+Lines executed:4.63% of 562
+Creating 'dominion.c.gcov'
+
++++RANDOM TESTING adventurer+++
++++RANDOM TESTING adventurer+++ Completed!
++++RANDOM TESTING great_hall+++
++++RANDOM TESTING great_hall+++ Completed!
+File 'dominion.c'
+Lines executed:17.97% of 562
+Creating 'dominion.c.gcov'
+
++++RANDOM TESTING smithy+++
++++RANDOM TESTING smithy+++ Completed!
+File 'dominion.c'
+Lines executed:19.40% of 562
+Creating 'dominion.c.gcov'
+

@@ -1,5 +1,7 @@
 CFLAGS = -Wall -fpic -coverage -lm
 
+all: playdom player testDrawCard testBuyCard badTestDrawCard
+
 rngs.o: rngs.h rngs.c
 	gcc -c rngs.c -g  $(CFLAGS)
 
@@ -29,14 +31,36 @@ runtests: testDrawCard
 	gcov dominion.c >> unittestresult.out
 	cat dominion.c.gcov >> unittestresult.out
 
-
 player: player.c interface.o
 	gcc -o player player.c -g  dominion.o rngs.o interface.o $(CFLAGS)
 
-all: playdom player testDrawCard testBuyCard badTestDrawCard
-
-runPlaydom2: all
-	./playdom 2
+testresults.out: random-adventurer.c random-smithy.c unit-adventurer.c unit-greathall.c unit-smithy.c dominion.o rngs.o
+	echo "Result for running tests:" > testresults.out
+	
+	echo "random-adventurer.c:" >> testresults.out
+	gcc -o random-adventurer random-adventurer.c dominion.o rngs.o $(CFLAGS)
+	random-adventurer >> testresults.out
+	gcov dominion.c >> testresults.out
+	
+	echo "random-smithy.c:" >> testresults.out
+	gcc -o random-smithy random-smithy.c dominion.o rngs.o $(CFLAGS)
+	random-smithy >> testresults.out
+	gcov dominion.c >> testresults.out
+	
+	echo "unit-adventurer.c" >> testresults.out
+	gcc -o unit-adventurer unit-adventurer.c dominion.o rngs.o $(CFLAGS)
+	unit-adventurer >> testresults.out
+	gcov dominion.c >> testresults.out
+	
+#	echo "unit-greathall.c" >> testresults.out
+#	gcc -o unit-greathall unit-greathall.c dominion.o rngs.o $(CLFAGS)
+#	unit-greathall >> testresults.out
+#	gcov dominion.c >> testresults.out
+	
+	echo "unit-smithy.c" >> testresults.out
+	gcc -o unit-smithy unit-smithy.c dominion.o rngs.o $(CFLAGS)
+	unit-smithy >> testresults.out
+	gcov dominion.c >> testresults.out
 
 clean:
 	rm -f *.o playdom.exe playdom player player.exe  *.gcov *.gcda *.gcno *.so *.out testDrawCard testDrawCard.exe

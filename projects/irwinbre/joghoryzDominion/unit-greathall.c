@@ -2,7 +2,7 @@
 * Filname: cardtest1.c
 * Author: Brent Irwin
 * Date: 28 January 2018
-* Description: Test Village Card
+* Description: Test Great Hall Card
 ***************************************************************/
 
 #include "dominion.h"
@@ -23,20 +23,20 @@ int main() {
 
 	// Start the game
 	initializeGame(2, k, seed, &G);
-	// Put some cards in their deck
+	// Put some card in their hand
 	for (i=0; i<10; i++) {
 		gainCard(k[rand()%10], &G, 1, 1);
 		gainCard(rand()%3+4, &G, 1, 1);
 	}
 
 	// Print expected results
-	printf("For this test to pass, expect one more card and 2 more actions.\n");
+	printf("For this test to pass, expect one more card and 1 more action.\n");
 
 	// Initialize hand
 	for (i=0; i<MAX_HAND; i++) {
 		G.hand[1][i] = -1;
 	}
-	G.hand[1][0] = village;
+	G.hand[1][0] = great_hall;
 
 	// Display cards before
 	printf("Cards before: ");
@@ -49,7 +49,7 @@ int main() {
 	printf("%i\n", actionsBefore);
 
 	// Use the smithy card
-	card_village(1, &G, 0);
+	cardEffect_great_hall(&G, 1, 0);
 
 	// Display cards after
 	printf("Cards after: ");
@@ -69,7 +69,7 @@ int main() {
 		G.hand[1][4] != -1)
 		success = 0;
 	
-	if (actionsBefore + 2 != actionsAfter)
+	if (actionsBefore + 1 != actionsAfter)
 		success = 0;
 
 	if (success) printf("TEST SUCCESSFULLY COMPLETED.\n");
