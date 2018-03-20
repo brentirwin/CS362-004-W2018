@@ -1,5 +1,7 @@
 import junit.framework.TestCase;
 
+import java.util.Random;
+
 //You can use this as a skeleton for your 3 different test approach
 //It is an optional to use this file, you can generate your own test file(s) to test the target function!
 // Again, it is up to you to use this file or not!
@@ -120,6 +122,90 @@ public class UrlValidatorTestInCorrect extends TestCase {
 		   }
 	   }
    }
+
+   public int randint(int bound){
+
+       Random rand = new Random();
+       int index = rand.nextInt(bound);
+       index -=1;
+       if(index<0){
+           index = index*-1;
+       }
+       return index;
+   }
+
+   //Generates and tests 1000 valid domains
+    public void testProgrammingHostnames(){
+
+        UrlValidator urlVal = new UrlValidator();
+
+        //Selected domains chosen that will always be a valid TLD as well as domain name
+        String[] domains = {
+                "today",
+                "tokyo",
+                "travel",
+                "school",
+                "room",
+                "red",
+                "party",
+                "page",
+                "com",
+                "netflix",
+                "host",
+                "fire",
+                "download",
+                "cool",
+                "bike",
+                "aaa",
+        };
+
+        //Valid generated subdomains test
+        for (int i = 0; i < 1000 ; i++) {
+            String subdomain = "http://";
+            for (int j = 0; j < randint(6)+2; j++) {
+                if(!(subdomain.charAt(subdomain.length()-1) == '/')){
+                    subdomain+=".";
+                }
+                int index = randint(domains.length - 1);
+                subdomain+=domains[index];
+            }
+            assertTrue(urlVal.isValid(subdomain));
+        }
+    }
+
+    //Test 1000 generated valid IPv4 addresses
+    public void testProgrammingIPv4(){
+
+       UrlValidator urlValidator = new UrlValidator();
+       String[] ipblocks = {
+               "100",
+               "122",
+               "130",
+               "22",
+               "44",
+               "1",
+               "2",
+               "245",
+               "201",
+               "244",
+               "78",
+               "90",
+               "101",
+               "255",
+               "0"
+       };
+        for (int i = 0; i < 1000 ; i++) {
+            String address = "http://";
+            for (int j = 0; j < 4; j++) {
+                if(!(address.charAt(address.length()-1) == '/')){
+                    address+=".";
+                }
+                int index = randint(ipblocks.length - 1);
+                address+=ipblocks[index];
+            }
+            assertTrue(urlValidator.isValid(address));
+        }
+    }
    
    public void testProgrammingTest()
    {
@@ -170,15 +256,16 @@ public class UrlValidatorTestInCorrect extends TestCase {
 			   "go.com/..//file",
 			   "go.com/test1//file"
 	   };
-	   UrlValidator urlVal = new UrlValidator();
-	   for (int i = 0; i < valid.length; i++)
-	   {
-		   assertTrue(urlVal.isValid(valid[i]));
-	   }
-	   for (int i = 0; i < invalid.length; i++)
-	   {
-		   assertFalse(urlVal.isValid(invalid[i]));
-	   }
+
+       UrlValidator urlVal = new UrlValidator();
+       for (int i = 0; i < valid.length; i++)
+       {
+           assertTrue(urlVal.isValid(valid[i]));
+       }
+       for (int i = 0; i < invalid.length; i++)
+       {
+           assertFalse(urlVal.isValid(invalid[i]));
+       }
    }
 
 }
