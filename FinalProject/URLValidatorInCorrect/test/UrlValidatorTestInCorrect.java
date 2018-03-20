@@ -15,30 +15,32 @@ public class UrlValidatorTestInCorrect extends TestCase {
       super(testName);
    }
 
-   
-   
-   public void testManualTest()
-   {
-//You can use this function to implement your manual testing
-	   String[] urls = {"http://foo.bar.com/",
-			   			"foo.bar.com/",
-			   			"http://foo.bar.com",
-			   			"http://foobarcom/",
-			   			"http:/foo.bar.com",
-			   			"https://foo.bar.com/baz",
-			   			"ftp://foo.com/bar.baz"
-	   };
-	   UrlValidator urlVal = new UrlValidator();
-	   for (int i = 0; i < urls.length; i++)
-	   {
-		   if (urlVal.isValid(urls[i])) {
-			   System.out.println(urls[i] + " - url is valid");
-		   } else {
-			   System.out.println(urls[i] + " - url is invlaid");
-		   }
-	   }
-   }
-	   
+	public void testManualTest(){
+		String[] schemes = {"http","https"};
+		String[] urls = {"http://foo.bar.com/",
+				"foo.bar.com/",
+				"http://foo.bar.com",
+				"http://foobarcom/",
+				"http:/foo.bar.com",
+				"https://foo.bar.com/baz",
+				"ftp://foo.com/bar.baz"
+		};
+		boolean[] validity ={true,
+				false,
+				true,
+				false,
+				false,
+				true,
+				true,
+		};
+
+		UrlValidator urlVal1 = new UrlValidator(schemes);
+		for (int i = 0; i < urls.length ; i++) {
+			System.out.println(urls[i]);
+			assertEquals(urlVal1.isValid(urls[i]),validity[i]);
+		}
+	}
+
    public void testManualTestExample()
    {
 //You can use this function to implement your manual testing	   
@@ -119,7 +121,7 @@ public class UrlValidatorTestInCorrect extends TestCase {
 	   }
    }
    
-   public void programmingTest()
+   public void testProgrammingTest()
    {
 	   // Create tuples of strings and 
 	   String[] valid = {
@@ -171,11 +173,11 @@ public class UrlValidatorTestInCorrect extends TestCase {
 	   UrlValidator urlVal = new UrlValidator();
 	   for (int i = 0; i < valid.length; i++)
 	   {
-		   assertEquals(true, urlVal.isValid(valid[i]));
+		   assertTrue(urlVal.isValid(valid[i]));
 	   }
 	   for (int i = 0; i < invalid.length; i++)
 	   {
-		   assertEquals(false, urlVal.isValid(invalid[i]));
+		   assertFalse(urlVal.isValid(invalid[i]));
 	   }
    }
 
